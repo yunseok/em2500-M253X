@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "name": "em2500-M253X.py",
+      "script": "index.py",
+      "interpreter": "python3.7",
+      "interpreter_args": "-u"
+    }
+  ]
+}
