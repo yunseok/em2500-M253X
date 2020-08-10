@@ -1,9 +1,0 @@
-{
-  "token": "INSERT_TOKEN_HERE",
-  "owners": [USER_ID_HERE],
-  "prefix": ["/"],
-  "playing": null,
-  "playing_type": "playing|watching|listening",
-  "status_type": "online|idle|dnd",
-  "version": "1.0.0"
-}

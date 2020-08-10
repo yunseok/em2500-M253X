@@ -1,8 +1,0 @@
-version: "3"
-
-services:
-  bot:
-    container_name: "em2500-M253X.py"
-    build: .
-    volumes:
-      - ./config.json:/em2500-M253X/config.json

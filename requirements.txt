@@ -1,5 +1,1 @@
-asyncio
-git+https://github.com/Rapptz/discord.py@master
-psutil
-pytz
-yarl<1.2
+discord.py
