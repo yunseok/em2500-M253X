@@ -1,4 +1,5 @@
 import json
+import timeago as timesince
 
 from collections import namedtuple
 
@@ -10,3 +11,6 @@ def get(file):
         raise AttributeError("ARG UNKNOWN!!!")
     except FileNotFoundError:
         raise FileNotFoundError("JSON FILE NOT FOUND!!")
+
+def timeago(target):
+    return timesince.format(target)
